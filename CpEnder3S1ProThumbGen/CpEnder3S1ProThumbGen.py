@@ -21,7 +21,7 @@ sourceFile = sys.argv[1]
 with open(sourceFile, "r") as f:
     lines = f.read()
 
-thumbnailMatchExpression = r'(; thumbnail_JPG begin [0-9]+x[0-9]+ [0-9]+\n)((.|\n)*?)(; thumbnail_JPG end)'
+thumbnailMatchExpression = r'(; thumbnail begin [0-9]+x[0-9]+ [0-9]+\n)((.|\n)*?)(; thumbnail end)'
 
 thumbnailMatches = re.findall(thumbnailMatchExpression, lines)
 
