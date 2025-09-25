@@ -4,7 +4,7 @@
 # Creality Print processor script:
 # For Ender 3 S1 Pro thumbnail and print data generation
 # Author: Peter Sutton
-# Version 1.0
+# Version 1.0.0.1
 # ------------------------------------------------------------------------------
 
 import base64 
